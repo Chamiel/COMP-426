@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>Hearts</title>
+<script src="jquery-3.2.1.js"></script>
+<script src="Card.js"></script>
+<script src="Hearts.js"></script>
+<script src="HeartsMatch.js"></script>
+<script src="DumbAI.js"></script>
+<script src="GamePlayer.js"></script>
+<script src="HeartsGame.js"></script>
+<link rel="stylesheet" type="text/css" href="hearts.css">
+</head>
+
+<body>
+<h1>Hearts Match Vs. Three DumbAIs</h1>
+<div id="player_div">
+<div id="north_player">
+  <div id="played">
+  <img id="North"></img>
+  <img id="East"></img>
+  <img id="South"></img>
+  <img id="West"></img>
+  <div>
+  <h2 class="n">NORTH</h2>
+  <h2 class="e">EAST</h2>
+  <h2 class="s">SOUTH</h2>
+  <h2 class="w">WEST</h2>
+  </div>
+  </div>
+  <div id="hand"></div>
+  <div id="scores">
+  <p id="score1" class="n"></p>
+  <p id="score2" class="e"></p>
+  <p id="score3" class="s"></p>
+  <p id="score4" class="w"></p>
+  </div>
+  <div id="game_event_message_log"></div>
+</div>
+</div>
+
+</body>
+</html>

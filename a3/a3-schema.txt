@@ -1,0 +1,29 @@
+
+Player
+	id : INT, primary key
+	first : CHAR(25)
+	last : CHAR(25)
+	team : INT, Team id
+	
+Team
+	id : INT, primary key
+	name : CHAR(25)
+	
+Game
+	id : INT, primary key
+	team1 : INT, Team id
+	team2 : INT, Team id
+	day : INT
+	month : INT
+	year : INT
+	
+ScoreEvent
+	id : INT, primary key
+	player : INT, Player id
+	game : INT, Game id
+	type : INT, EventType id
+	passer : INT, Player id
+	
+EventType
+	id : INT, primary key
+	points : INT

@@ -1,0 +1,106 @@
+h1 {
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-style: italic;
+}
+
+h2 {
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-style: normal;
+	font-size: 150%;
+}
+
+p {
+	text-align: center;
+	color: black;
+}
+
+img {
+	display: block;
+	margin: 0 auto;
+}
+
+body {
+	
+	background-image: url("pogobeasts.jpg");
+	
+	background-size: 100% auto;
+}
+
+div {
+	text-align: center;
+	margin: auto;
+}
+
+p.sansserif {
+	font-family: Arial, Helvetical, sans-serif;
+}
+
+p:last-child {
+	background-color: orange;
+}
+
+#border{
+	border: 10px solid yellow;
+}
+
+#border-2{
+	border: 10px solid red;
+}
+
+#border-3{
+	border: 10px solid lightblue;
+}
+
+.enteilinkbutton{
+	width: 300px;
+	padding: 20px;
+	cursor: pointer;
+	box-shadow: 6px 6px 5px;
+	font-weight: bold;
+	background: #ff471a;
+	color: #000;
+	border-radius: 10px;
+	border: 1px solid #999;
+	font-size: 150%;
+	text-align: center;
+}
+
+.enteilinkbutton:hover{
+	box-shadow: 2px 2px 8px;
+}
+
+.suicunelinkbutton{
+	width: 300px;
+	padding: 20px;
+	cursor: pointer;
+	box-shadow: 6px 6px 5px;
+	font-weight: bold;
+	background: #0099ff;
+	color: #000;
+	border-radius: 10px;
+	border: 1px solid #999;
+	font-size: 150%;
+	text-align: center;
+}
+
+.suicunelinkbutton:hover{
+	box-shadow: 2px 2px 8px;
+}
+
+.raikoulinkbutton{
+	width: 300px;
+	padding: 20px;
+	cursor: pointer;
+	box-shadow: 6px 6px 5px;
+	font-weight: bold;
+	background: #ffff1a;
+	color: #000;
+	border-radius: 10px;
+	border: 1px solid #999;
+	font-size: 150%;
+	text-align: center;
+}
+
+.raikoulinkbutton:hover{
+	box-shadow: 2px 2px 8px;
+}

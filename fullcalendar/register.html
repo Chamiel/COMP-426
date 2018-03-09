@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Personal Calender </title>
+<link rel = "stylesheet" href = "register.css">
+<h1> &bull; Registeration &bull; </h1>
+</head>
+<body>
+
+<form action = "register.php">
+	<div class = "container">
+		<label><b>Name</b></label><br>
+		<input type = "text" placeholder = "Enter Name" name = "name" required>
+		<br><br>
+		<label><b>Username</b></label><br>
+		<input type = "text" placeholder = "Enter Username" name = "user" required>
+		<br><br>
+		<label><b>Password</b></label><br>
+		<input type = "text" placeholder = "Enter Password" name = "pass" id = "password" required>
+		<div class = "checkboxitem" style = "display: inline-block"><br>
+		Show/Hide Password
+		<input type="checkbox" onclick="myFunction()"> </div>
+	
+		<script>
+			function myFunction() {
+				var x = document.getElementById("password");
+				if (x.type === "password") {
+					x.type = "text";
+				} else {
+					x.type = "password";
+				}
+			} 
+		</script>		
+	<div class = "clearfix"><br>
+		<button type="submit" class="submit">Sign Up</button>
+			<a href = "login.html"><button type="button"  class="submit">Cancel</button></a>
+    </div>
+	</div>
+</form>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Personal Calendar Login</title>
+<link rel = "stylesheet" href = "register.css">
+<h1> &bull; Personal Calendar &bull; </h1>
+<h2> Welcome to your Personal Calendar!<br>
+ This is an application that allows you to plan out your schedules and busy life!</h2>
+</head>
+<body>
+
+<form action = "login.php">
+	<div class = "container">
+		<label><b>Username</b></label><br>
+		<input type = "text" placeholder = "Enter Username" name = "user" required>
+		<br>
+		<br>
+		<label><b>Password</b></label><br>
+		<input type = "text" placeholder = "Enter Password" name = "pass" id = "password" required><br><br>
+		<div class = "checkboxitem" style = "display: inline-block">
+		Show/Hide Password
+		<input type="checkbox" onclick="myFunction()"> </div>
+		
+		<script>
+			function myFunction() {
+				var x = document.getElementById("password");
+				if (x.type === "password") {
+					x.type = "text";
+				} else {
+					x.type = "password";
+				}
+			} 
+		</script>
+	
+	<div class = "clearfix"><br>
+		<button type="submit" class="submit">Login</button>
+	<a href = "register.html">
+		<button type="button" class="submit">Register</button> </a>
+    </div>
+	</div>
+</form>
+
+</body>
+</html>

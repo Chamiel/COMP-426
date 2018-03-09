@@ -1,0 +1,94 @@
+#player_div {
+    position: relative;
+    height: 750px;
+    width: 650px;
+    border: thin solid black;
+}
+
+h2 {
+	top: 0px;
+	font-size: 25px;
+}
+
+.n {
+	position: absolute;
+	left: 25px;
+}
+
+.e {
+	position: absolute;
+	left: 175px;
+}
+
+.s {
+	position: absolute;
+	left: 325px;
+}
+
+.w {
+	position: absolute;
+	left: 475px;
+}
+
+#North {
+	position: absolute;
+	top: 50px;
+	left: 0px;
+}
+
+#East {
+	position: absolute;
+	top: 50px;
+	left: 175px;
+}
+
+#South {
+	position: absolute;
+	top: 50px;
+	left: 325px;
+}
+
+#West {
+	position: absolute;
+	top: 50px;
+	left: 475px;
+}
+
+img.passing {
+	border: medium solid blue;
+}
+
+img.playable {
+	border: medium solid green;
+}
+
+#played {
+	clear: both;
+	width: 600px;
+	height: 180px;
+	border: thin solid black;
+}
+
+#hand {
+	width: 600px;
+	height: 220px;
+	border: thin solid green;
+}
+
+.game_event_message_log {
+    width: 600px;
+    height: 290px;
+    overflow: auto;
+    border: thin solid black;
+}
+
+#north_player {
+    float: left;
+    margin-left: 25px;
+}
+
+#scores {
+	width: 600px;
+	height: 50px;
+	border: thin solid blue;
+}

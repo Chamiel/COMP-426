@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `ScoreEvent` WHERE `game` IN (SELECT `id` FROM `Game` WHERE `month`=10) AND (`player` IN (SELECT `id` FROM `Player` WHERE `First` = 'Marshawn' AND `Last` = 'Lynch') AND `type`=3)
